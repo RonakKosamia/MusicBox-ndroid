@@ -2,11 +2,8 @@
 An application with shout-cast API- complete radio streaming app with more than 500 radio stations.
 This music box - Shoutcast Player plays online radio stations from the Shoutcast Server.
 
-# Developer-URLs@
-http://wiki.shoutcast.com/wiki/SHOUTcast_Radio_Directory_API#Get_Top_500_Stations
-
 find all the shoutcast api url on wiki. 
-
+http://wiki.shoutcast.com/wiki/SHOUTcast_Radio_Directory_API#Get_Top_500_Stations
 
 - step 1: create developer key (API key) on shoutcast site.
 - step 2: create proper application using android studio 
@@ -24,9 +21,4 @@ find all the shoutcast api url on wiki.
 
 
 Thanks.
- 
- ![home screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/home.jpg)
- ![search screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/search.jpg)
- ![top-channels screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/topchannels.jpg)
- ![favourites screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/favourites.jpg)
- ![favourites screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/favourites2.jpg)
+
