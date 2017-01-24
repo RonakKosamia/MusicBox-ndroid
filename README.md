@@ -24,3 +24,9 @@ find all the shoutcast api url on wiki.
 
 
 Thanks.
+ 
+ ![home screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/home.jpg)
+ ![search screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/search.jpg)
+ ![top-channels screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/topchannels.jpg)
+ ![favourites screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/favourites.jpg)
+ ![favourites screen] (https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI/tree/master/screenshots/favourites2.jpg)
