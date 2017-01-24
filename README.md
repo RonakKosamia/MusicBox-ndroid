@@ -8,12 +8,9 @@ http://wiki.shoutcast.com/wiki/SHOUTcast_Radio_Directory_API#Get_Top_500_Station
 find all the shoutcast api url on wiki. 
 
 
-- step 1: 
-create developer key (API key) on shoutcast site.
-- step 2:
-create proper application using android studio 
-- step 3:
-make asyncTask thread component to handle API network calls to the site. 
+- step 1: create developer key (API key) on shoutcast site.
+- step 2: create proper application using android studio 
+- step 3: make asyncTask thread component to handle API network calls to the site. 
 
 **To use this application: 
 
@@ -21,6 +18,7 @@ make asyncTask thread component to handle API network calls to the site.
 - Open android studio application on your PC/Laptop
 - use 'open existing android studio project' option to import this application
 - make sure you have installed latest gradle, API level 15 & 25
+- Before building the apk. make sure 'Instant Run' must be disabled in your Android Studio.
 - build project, clean project
 - run app module of the project. 
 
