@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="overscroll-decor-android-1.0.4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.everything/overscroll-decor-android/1.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.everything/overscroll-decor-android/1.0.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.everything/overscroll-decor-android/1.0.4/cdf310a5ee81b805214c1b92f50dfbc60fa5e8f7/overscroll-decor-android-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

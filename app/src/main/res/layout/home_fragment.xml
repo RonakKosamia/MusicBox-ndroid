@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <com.ronak.musicbox.VisualizerView
+            android:id="@+id/myvisualizerview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:onClick="changeVisualization"
+            android:rotation="180" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/image_logo_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview_home"
+        android:src="@drawable/music" />
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cardview_home"
+        android:background="#88ffffff">
+
+        <TextView
+            android:id="@+id/text_title"
+            fontPath="fonts/dosis-regular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:text="---------------"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:text="-------------------------------------------"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageview_is_favourite"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_above="@+id/text_home_listeners_listening"
+            android:layout_alignParentRight="true"
+            android:layout_margin="18dp"
+            android:gravity="center"
+            android:src="@drawable/favourite_grey"
+            android:text="Add to Favourite"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/text_home_listeners_listening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:text="----- : --------" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
