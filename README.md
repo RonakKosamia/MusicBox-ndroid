@@ -11,7 +11,7 @@ http://wiki.shoutcast.com/wiki/SHOUTcast_Radio_Directory_API#Get_Top_500_Station
 
 **To use this application: 
 
-- clone this repo using git bash : git clone https://github.com/RonakKosamia/RadioStreamingApp-Android-ShoutcastAPI.git
+- clone this repo using git bash : git clone https://github.com/RonakKosamia/MusicBox-ndroid.git
 - Open android studio application on your PC/Laptop
 - use 'open existing android studio project' option to import this application
 - make sure you have installed latest gradle, API level 15 & 25
